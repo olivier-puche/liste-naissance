@@ -1,0 +1,113 @@
+header {
+	color: pink;
+	background: #53C1FC;
+	text-align: center;
+	font-family: gras;
+	font-size: 50px;
+	border: 2px pink; border-radius: 4px; border-top: solid; box-shadow: 3px 3px 3px pink;
+}
+
+#image {
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+h2 {
+	color: #53C1FC;
+	text-align: center;
+	font-style: oblique;
+}
+
+table {
+	border-collapse: collapse;
+	width: 1200px; 
+	margin: 0;
+ 	width:100%;
+ 	border: 3px solid pink;
+}
+
+th, tr, td {
+ 	border: 2px solid pink;
+}
+
+thead {
+	border: 2px pink;
+}
+
+#Description{
+	text-align: justify;
+}
+
+.statut {
+	font font-size: 100px; 	
+}
+
+.urgent {
+	color : red;
+}
+
+.acheté {
+	color: blue;
+}
+
+.séléctionné {
+	color: green;
+}
+
+.disponible{
+	color : purple;
+}
+
+#myFooter {
+	width : 50%;
+	color: #53C1FC;
+	background: pink;
+	text-align: center;
+	font-family: gras;
+	border: 2px #53C1FC; border-radius: 4px; border-top: solid; box-shadow: 3px 3px 3px #53C1FC;
+  
+  	animation-name : footer;
+  	animation-delay : 5s;
+  	animation-duration : 5s;
+  	animation-iteration-count : infinite;
+}
+
+@keyframes footer {
+0% {
+opacity : 1 ;}
+40% {
+opacity : 0 ;}
+100%{opacity: 1;}
+}
+
+form {
+	margin-left: 3%;
+	padding: 10px;
+}
+
+#photo {
+    background-image: url(images/photo-bébé.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.merci {
+	color: pink;
+	text-decoration: underline;
+}
+
+.completer{
+	color: pink;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #53C1FC;
+}
+
+p:hover {
+	color: #53C1FC;
+}
